@@ -1,0 +1,53 @@
+﻿.container {
+    background-color: #ff006e;
+    border: thick solid #ff6a00;
+    padding: 20px;
+    margin: 20px;
+}
+.chat-box {
+    display: none;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    width: 250px;
+    height: 300px;
+    padding: 10px;
+    border: 1px solid #0376ee;
+    background-color: #fff;
+    opacity: 0.8;
+    font-size: 14px !important;
+    color: black !important;
+}
+.chat-box-header {
+    display: block;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    width: 250px;
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    background: #0376ee;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=\'\', endColorstr=\'\');
+    background: -webkit-gradient(linear, left top, left bottom, from(#058bf5), to(#015ee6));
+    background: -moz-linear-gradient(top, #058bf5, #015ee6);
+    border: 1px solid #0354cb;
+    box-shadow: inset 0 0 7px #0354cb;
+    -webkit-box-shadow: inset 0 0 7px #0354cb;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.chat-box-msg {
+    height: 265px;
+    overflow: auto;
+}
+.chat-box-input {
+    height: 35px;
+}
+.chat-box-textinput {
+    width: 100%;
+    height: 32px;
+    border: 1px solid #0354cb;
+    border-radius: 3px;
+}
